@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Registration Form
+    </h1>
+    
+    <h3>
+    <form action="my-first-form" method="POST">
+
+        <label for="name">Name:</label>
+        <input type="text" placeholder="First Name" id="firstname" name="firstname" required>
+        <input type="text" placeholder="Last Name" id="lastname" name="lastname" required><br>
+        <br>
+
+        <label for="date">Today's date:</label>
+        <input type="date" id="date" name="date" required><br>
+        <label for="bdate">Date of birth:</label>
+        <input type="date" id="bdate" name="bdate" required><br>
+        <br>
+
+        <fieldset>
+            <legend>Gender:</legend>
+            <label><input type="radio" name="gender" value="male">Male</label><br>
+            <label><input type="radio" name="gender" value="female">Female</label><br>
+            <label><input type="radio" name="gender" value="nonbinary">Non-binary</label><br>
+            <label><input type="radio" name="gender" value="other">Other</label><br>
+        </fieldset>
+        <br>
+        <br>
+        <br>
+
+        <label for="address">Address:</label>
+        <input type="text" placeholder="Street and number">
+        <label for="city"></label>
+        <input type="text" placeholder="City" id="city" required>
+        
+    
+        <label for="province">Province:</label>
+        <select name="province" id="province" required>
+            <option value="Alberta">AB</option>
+            <option value="British Columbia">BC</option>
+            <option value="Manitoba">MB</option>
+            <option value="New Brunswick">NB</option>
+            <option value="NewFoundland and labrador">NL</option>
+            <option value="Nova Scotia">NS</option>
+            <option value="Ontario">ON</option>
+            <option value="Prince Edward Island">PEI</option>
+            <option value="Quebec">QC</option>
+            <option value="Saskatchewan">SK</option>
+            <option value="NorthWest Territories">NT</option>
+            <option value="Nunavut">NU</option>
+            <option value="Yukon">YT</option>
+        </select>
+        <br>
+    </h3>
+        
+    
+        <br>
+        <h3>
+            Terms and Conditions
+        </h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed magna sit amet urna auctor sodales. Praesent eget ligula faucibus, laoreet erat in, egestas nisl. Donec vitae mauris sit amet ligula egestas pulvinar. Aliquam iaculis porta nulla, eget pharetra justo dapibus eget. Proin sit amet tempus massa, ac eleifend urna. Aliquam at lacus velit. Ut eget consectetur neque, ut lobortis arcu. Maecenas maximus nulla vel nisl finibus pharetra. Maecenas dictum at mi vitae feugiat. Sed gravida egestas varius. Morbi rhoncus eu lacus efficitur viverra. Integer sit amet sapien aliquam, varius mauris at, ultrices nibh. Donec ultrices massa a facilisis malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse molestie sollicitudin tortor, sit amet imperdiet augue imperdiet id. Donec molestie nisl ac dolor porttitor placerat.
+            <br>
+            <br>
+            Suspendisse volutpat non libero eu rutrum. Suspendisse at felis vel tellus feugiat ultrices nec id dui. Aenean dictum vulputate dignissim. Mauris id nisl nec nulla condimentum consequat at sed ante. Maecenas dignissim ante ut purus vestibulum dictum. Vestibulum vulputate magna at augue porttitor convallis. Vivamus dignissim fringilla venenatis. Praesent dapibus convallis odio elementum volutpat. Nullam sagittis nec est eu lobortis. Phasellus congue vehicula maximus.
+            <br>
+            <br>
+            Maecenas vitae nisi dapibus, sodales ex a, scelerisque magna. Sed nec molestie lorem, quis posuere turpis. Fusce a metus ac ex vestibulum congue. Nullam ligula sem, maximus vitae elit quis, blandit accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc rutrum molestie nisi et fermentum. Nullam in lacinia tortor, vel condimentum mi.
+            <br>
+            <br>
+            Donec vel eros malesuada, aliquet urna non, mattis enim. Nulla vel pulvinar metus. Integer laoreet pulvinar tellus, ut lobortis neque tincidunt non. Aliquam consequat tempus bibendum. Proin condimentum nulla ac convallis efficitur. In hac habitasse platea dictumst. Vivamus sollicitudin sapien non nulla gravida interdum. Sed eu lorem ex. Cras a purus tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum non sapien in dui interdum varius. Proin ut sem interdum, varius purus nec, condimentum nisi. Proin ultrices tempus orci condimentum vestibulum.
+            <br>
+            <br>
+            Nam nec elit at eros aliquet sagittis sed at dui. Sed placerat efficitur felis eu ultrices. Ut quis euismod massa, a efficitur sem. Pellentesque sit amet volutpat libero. Duis et aliquam sapien, nec commodo ipsum. Maecenas ac ultrices lectus. Donec quis ligula porta, lobortis mi eu, sagittis libero. Quisque tempor tortor a lobortis vulputate. Integer non leo nec tortor iaculis sagittis ut nec dui. In ut ex et mauris ornare hendrerit eget vel arcu. Etiam id diam fringilla ipsum vehicula condimentum vel at diam.
+            <br>
+            <br>
+            Proin tellus sapien, tempus nec aliquet non, maximus vitae turpis. Phasellus sed pulvinar quam, eu posuere felis. Phasellus sed dictum nibh, sit amet sodales orci. Vivamus bibendum eget sapien a tempus. Morbi condimentum pretium massa, quis auctor ipsum auctor vel. Cras vitae neque in sem dapibus pharetra quis nec nisl. Curabitur nec accumsan turpis. Nam gravida mi eget vestibulum rhoncus. Nullam nec tellus in justo lobortis finibus. Aliquam lacinia magna eu porttitor viverra. Fusce ut lectus et lectus congue mollis. Nunc tincidunt nisi et massa malesuada sagittis. Mauris ut nunc mi.
+            <br>
+            <br>
+            Maecenas a aliquet lacus. Nulla eget faucibus mi. Integer ornare erat aliquam ipsum ornare rutrum. Nam pretium tincidunt metus, vel luctus metus viverra non. Morbi non mauris ut neque finibus feugiat. Donec pulvinar viverra dui non faucibus. Integer ante tortor, luctus nec neque id, tincidunt rhoncus enim. Pellentesque eu eros non nisl tincidunt porttitor. Aliquam in est eget nibh gravida cursus. Donec venenatis rhoncus iaculis. Quisque rutrum enim fringilla nulla semper mollis. Praesent eget rhoncus mauris. Integer vel neque sit amet risus tristique suscipit lacinia ut purus.
+            <br>
+            <br>
+            Etiam tincidunt lacus mauris, vitae malesuada arcu sodales nec. Vestibulum pulvinar vel mi vel imperdiet. Nulla iaculis leo quis fringilla blandit. Morbi dignissim nulla tincidunt lectus ultrices eleifend. Nunc in diam pellentesque, fringilla nisi a, condimentum nisi. Donec tincidunt lectus vitae orci suscipit sodales. Nunc consectetur tellus ultricies, ultrices dui ut, dapibus lacus. Morbi mollis dolor nibh, sit amet feugiat enim posuere vitae. Curabitur sit amet tincidunt magna. Vivamus id ante eget augue rutrum condimentum. Sed velit mauris, auctor vel nibh sodales, aliquam vulputate nunc. Nunc fermentum tortor dapibus lorem gravida, ornare dignissim nulla accumsan.
+            <br>
+            <br>
+            Pellentesque eget urna ut lorem venenatis dignissim. Fusce feugiat neque massa, vitae euismod nisi mattis sit amet. Pellentesque in ante molestie, hendrerit quam nec, euismod dui. Quisque fermentum quam tortor, id feugiat leo dictum ac. Suspendisse bibendum vitae odio ac blandit. Nulla eleifend nunc dolor, et tincidunt augue molestie non. Aliquam posuere lacinia ligula, in efficitur libero scelerisque non. Vestibulum leo odio, cursus eget accumsan id, posuere eu urna. Mauris interdum sagittis nibh, non molestie odio tempor nec.
+            <br><br>
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu molestie nunc. Mauris pharetra fringilla tortor. Cras aliquam sagittis felis, ac consectetur nibh varius vitae. Nam imperdiet dapibus posuere. In ut ipsum lobortis, malesuada dui vel, rutrum ligula. Nam urna tellus, laoreet sollicitudin bibendum nec, suscipit sit amet felis. Integer non leo vestibulum, tempor nulla nec, semper justo. Integer fringilla nunc quis dui consectetur aliquet. Nullam pellentesque aliquet eros ac commodo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam nec urna orci. In hac habitasse platea dictumst. Suspendisse finibus nisi eu erat eleifend dapibus.
+            <br>
+            <br>
+        </p>
+        <br>
+             <!--^v Look at java and css for styling v^-->
+        <label for="questions">Questions:</label><br>
+        <textarea id="questions" name="questions"></textarea>
+        <br>
+
+            <p>I
+                <label for="consent"></label>
+                <input type="text" placeholder="Full Name" id="fullname" required>
+                , agree to the terms and conditions therefore mentioned.
+            </p>
+        <br>
+        <input type="submit" required></input>
+    </form>
+</body>
+</html>
+<!--legal, consent, Approval for emails, texts, share data with third party companies-->

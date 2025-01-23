@@ -1,0 +1,29 @@
+body{
+    background-color: aliceblue;
+}
+form{
+    background-color: aliceblue;
+    text-align: left;
+}
+input[type="submit"]{
+    padding: 10px;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    width: 10%;
+}
+fieldset{
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(89, 209, 123);
+    padding: 10px;
+    text-align: center;
+}
+textarea{
+    box-sizing: content-box;
+    max-width: 600px;
+    max-height: 600px;
+}
